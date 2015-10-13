@@ -9,7 +9,7 @@
 ## Install
 
 ```
-npm install --global export-eslint-config
+npm install -g export-eslint-config
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ npm install --global export-eslint-config
 $ export-eslint-config SUFFIX
  
  SUFFIX  Suffix of eslint-config-* project.
-       Search in node_modules project eslint-config-SUFFIX
-       and covert to .eslintrc format and export to this file.
+         Search in node_modules project eslint-config-SUFFIX
+         and covert to .eslintrc format and export to this file.
 ```
 
 ## License
