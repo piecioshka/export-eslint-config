@@ -22,6 +22,24 @@ $ export-eslint-config SUFFIX
          and covert to .eslintrc format and export to this file.
 ```
 
+## Test
+
+Before you should have `jasmine` installed globally.
+
+```
+npm test
+```
+
+## Code coverage
+
+Before you should have `istanbul` installed globally.
+
+```
+npm run coverage
+```
+
+Next open in browser `./coverage/lcov-report/index.html`.
+
 ## License
 
 [The MIT License](http://twitter.com/piecioshka)

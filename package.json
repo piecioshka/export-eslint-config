@@ -20,7 +20,8 @@
         "url": "git+ssh://git@github.com/piecioshka/export-eslint-config.git"
     },
     "scripts": {
-        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
+        "coverage": "istanbul cover --include-all-sources jasmine JASMINE_CONFIG_PATH=test/jasmine.json test/spec/*"
     },
     "dependencies": {
         "colors": "^1.1.2"
