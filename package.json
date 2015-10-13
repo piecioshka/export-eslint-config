@@ -1,1 +1,27 @@
-{"private": true}
+{
+    "name": "export-eslint-config",
+    "version": "0.0.1",
+    "description": "Export configuration from any eslint-config-* to .eslintrc file",
+    "license": "MIT",
+    "scripts": {
+        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json"
+    },
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "piecioshka.pl"
+    },
+    "keywords": [
+        "lint",
+        "eslint",
+        "export"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/export-eslint-config.git"
+    },
+    "devDependencies": {
+        "eslint": "^1.6.0",
+        "eslint-config-piecioshka": "^1.0.7"
+    }
+}
