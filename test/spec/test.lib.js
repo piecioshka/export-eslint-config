@@ -1,8 +1,8 @@
 var lib = require('../../lib/lib.js');
 
 describe('Main architecture', function () {
-    it('should read module', function () {
-        expect(lib.read).toEqual(jasmine.any(Function));
+    it('should check module', function () {
+        expect(lib.check).toEqual(jasmine.any(Function));
     });
 
     it('should convert module to config file', function () {
