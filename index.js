@@ -2,7 +2,7 @@ var colors = require('colors');
 var lib = require('./lib/lib');
 
 var suffix = process.argv[2];
-var modulePath = '';
+var eslintConfigModuleDescription = '';
 var rules;
 
 if (!suffix) {
@@ -17,7 +17,7 @@ if (!suffix) {
 
 try {
     // Check that Node.js module exists.
-    modulePath = lib.check(suffix);
+    eslintConfigModuleDescription = lib.check(suffix);
 } catch (e) {
     console.error(colors.red('ERROR: Please install "eslint-config-' + suffix + '" before attempt to export configuration file!'));
     console.error(colors.red('ERROR: Try to run "npm install eslint-config-' + suffix + '"'));
@@ -25,7 +25,7 @@ try {
 }
 
 // Load module and returns JSON format.
-rules = lib.convert(modulePath);
+rules = lib.convert(eslintConfigModuleDescription);
 
 // Build file.
 lib.build(rules);
