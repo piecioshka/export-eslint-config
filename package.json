@@ -1,12 +1,15 @@
 {
     "name": "export-eslint-config",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Export configuration from any eslint-config-* to .eslintrc file",
     "license": "MIT",
     "author": {
         "name": "Piotr Kowalski",
         "email": "piecioshka@gmail.com",
         "url": "piecioshka.pl"
+    },
+    "bin": {
+        "export-eslint-config": "index.js"
     },
     "keywords": [
         "lint",
