@@ -9,7 +9,7 @@
 ## Install
 
 ```
-npm install -g export-eslint-config
+$ npm install -g export-eslint-config
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ $ export-eslint-config SUFFIX
 Before you should have `jasmine` installed globally.
 
 ```
-npm test
+$ npm test
 ```
 
 ## Code coverage
@@ -35,11 +35,11 @@ npm test
 Before you should have `istanbul` installed globally.
 
 ```
-npm run coverage
+$ npm run coverage
 ```
 
 Next open in browser `./coverage/lcov-report/index.html`.
 
 ## License
 
-[The MIT License](http://twitter.com/piecioshka)
+[The MIT License](http://twitter.com/piecioshka) @ 2015
