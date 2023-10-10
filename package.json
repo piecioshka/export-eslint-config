@@ -8,26 +8,31 @@
         "email": "piecioshka@gmail.com",
         "url": "http://piecioshka.pl"
     },
-    "preferGlobal": true,
-    "bin": {
-        "export-eslint-config": "index.js"
+    "scripts": {
+        "test": "jasmine src/**.spec.js --reporter=jasmine-console-reporter"
     },
+    "devDependencies": {
+        "jasmine": "^5.1.0",
+        "jasmine-console-reporter": "^3.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/piecioshka/export-eslint-config.git"
+    },
+    "preferGlobal": true,
+    "files": [
+        "bin",
+        "src",
+        "package.json",
+        "README.md"
+    ],
     "keywords": [
+        "cli",
         "lint",
         "eslint",
         "export",
         "config",
         "eslintrc"
     ],
-    "repository": {
-        "type": "git",
-        "url": "git+ssh://git@github.com/piecioshka/export-eslint-config.git"
-    },
-    "scripts": {
-        "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
-        "coverage": "istanbul cover --include-all-sources jasmine JASMINE_CONFIG_PATH=test/jasmine.json test/spec/*"
-    },
-    "dependencies": {
-        "colors": "^1.1.2"
-    }
+    "bin": "bin/cli.js"
 }

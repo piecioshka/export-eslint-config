@@ -1,7 +1,7 @@
 var path = require('path');
 var fs = require('fs');
 
-const CONFIG_FILE_NAME = '.eslintrc';
+var CONFIG_FILE_NAME = '.eslintrc';
 
 module.exports = {
     /**
