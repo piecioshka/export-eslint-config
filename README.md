@@ -1,8 +1,9 @@
 # export-eslint-config
 
-![](https://img.shields.io/npm/v/export-eslint-config.svg)
-![](https://img.shields.io/npm/dt/export-eslint-config.svg)
-![](https://img.shields.io/npm/l/export-eslint-config.svg)
+[![node version](https://img.shields.io/node/v/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
+[![npm version](https://badge.fury.io/js/export-eslint-config.svg)](https://badge.fury.io/js/export-eslint-config)
+[![downloads count](https://img.shields.io/npm/dt/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
+[![license](https://img.shields.io/npm/l/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
 
 Export any eslint-config-* project to default ESLint config file `.eslintrc`
 
@@ -21,4 +22,4 @@ export-eslint-config piecioshka
 
 ## License
 
-[The MIT License](http://twitter.com/piecioshka) @ 2015
+[The MIT License](https://piecioshka.mit-license.org) @ 2015
