@@ -37,7 +37,6 @@
         "config",
         "eslintrc"
     ],
-    "preferGlobal": true,
     "bin": {
         "export-eslint-config": "bin/cli.js"
     }
