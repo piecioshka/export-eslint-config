@@ -6,7 +6,7 @@
 [![license](https://img.shields.io/npm/l/export-eslint-config.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/export-eslint-config/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/export-eslint-config/actions/workflows/testing.yml)
 
-Export any eslint-config-* project to default ESLint config file `.eslintrc`
+🔨 Export any `eslint-config-*` project to default ESLint config file `.eslintrc`
 
 ## Install
 
