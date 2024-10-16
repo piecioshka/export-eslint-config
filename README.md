@@ -3,6 +3,7 @@
 [![node version](https://img.shields.io/node/v/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
 [![npm version](https://badge.fury.io/js/export-eslint-config.svg)](https://badge.fury.io/js/export-eslint-config)
 [![downloads count](https://img.shields.io/npm/dt/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
+[![size](https://packagephobia.com/badge?p=export-eslint-config)](https://packagephobia.com/result?p=export-eslint-config)
 [![license](https://img.shields.io/npm/l/export-eslint-config.svg)](https://piecioshka.mit-license.org)
 [![github-ci](https://github.com/piecioshka/export-eslint-config/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/export-eslint-config/actions/workflows/testing.yml)
 
