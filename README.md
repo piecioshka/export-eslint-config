@@ -1,6 +1,6 @@
 # export-eslint-config
 
-[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](https://runkit.com/npm/export-eslint-config)
+[![cli-available](https://badgen.net/static/cli/available/?icon=terminal)](#cli)
 [![node version](https://img.shields.io/node/v/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
 [![npm version](https://badge.fury.io/js/export-eslint-config.svg)](https://badge.fury.io/js/export-eslint-config)
 [![downloads count](https://img.shields.io/npm/dt/export-eslint-config.svg)](https://www.npmjs.com/package/export-eslint-config)
