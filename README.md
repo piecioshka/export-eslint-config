@@ -10,6 +10,8 @@
 
 🔨 Export any `eslint-config-*` project to default ESLint config file `.eslintrc`
 
+![](demo/export-eslint-config.gif)
+
 ## Usage
 
 Installation:
