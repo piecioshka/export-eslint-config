@@ -27,7 +27,8 @@
         "src",
         "package.json",
         "README.md",
-        "!**/*.spec.js"
+        "!**/*.spec.js",
+        "LICENSE"
     ],
     "keywords": [
         "cli",

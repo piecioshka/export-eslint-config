@@ -27,4 +27,4 @@ export-eslint-config piecioshka
 
 ## License
 
-[The MIT License](https://piecioshka.mit-license.org) @ 2015
+[The MIT License](http://piecioshka.mit-license.org) @ 2026
